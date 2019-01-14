@@ -765,18 +765,7 @@ MonoBehaviour:
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnGrab:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114741690532837794}
-        m_MethodName: ChannelUp
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnUngrab:
@@ -885,18 +874,7 @@ MonoBehaviour:
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnGrab:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114741690532837794}
-        m_MethodName: ChannelUp
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnUngrab:
@@ -992,7 +970,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Material_Monitor: {fileID: 2100000, guid: a00871159a3f49844a961dc8aa1d3074, type: 2}
-  _RenderTexture: []
+  _RenderTexture:
+  - {fileID: 8400000, guid: 6d8535d4ce867cc4fa63dd12089abe6d, type: 2}
+  - {fileID: 8400000, guid: 4f364989428c21b47b0981d2d95e5b5d, type: 2}
   _BtnUpAudioSrc: {fileID: 82482120330863746}
   _BtnDownAudioSrc: {fileID: 82692958799948404}
   _REFBtnUpInteractableObj: {fileID: 114251631417538196}

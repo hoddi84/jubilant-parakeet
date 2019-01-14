@@ -1,11 +1,12 @@
 ﻿/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  Title          :   ElevatorController.
- Description    :   Simple logic for the elevator and required components.
+ Description    :   Simple logic for the elevator and required components. 
  Copyright Aldin. All Rights reserved. 
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using VRTK;
 
 public class ElevatorController : MonoBehaviour
@@ -76,6 +77,11 @@ public class ElevatorController : MonoBehaviour
          * Start the coroutine for the elevator behavior.
          */
         StartCoroutine(BeginElevatorBehavior());
+    }
+
+    private void ReloadScene()
+    {
+        SceneManager.LoadScene(0);
     }
 
     private void OpenElevator()
@@ -159,6 +165,13 @@ public class ElevatorController : MonoBehaviour
          * Set the state of the elevator to stop.
          */
         StopElevator();
+
+        yield return new WaitUntil(() => !_REFElevatorEndingScreamAudioSrc.isPlaying);
+
+        /*
+         * Reload the scene.
+         */
+        ReloadScene();
     }
 }
 
