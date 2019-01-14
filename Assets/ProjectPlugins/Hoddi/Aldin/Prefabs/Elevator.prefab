@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4081872618750304}
   - component: {fileID: 82622735609479636}
   m_Layer: 0
-  m_Name: Elevator_Summoned
+  m_Name: Summon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -525,12 +525,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1056639144499584}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -8.994, y: 1.094, z: 1.357}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4294419069108786}
-  m_RootOrder: 2
+  m_Father: {fileID: 4574158227190868}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4090454227947408
 Transform:
@@ -622,7 +622,6 @@ Transform:
   m_Children:
   - {fileID: 4347937409438880}
   - {fileID: 4624396718795002}
-  - {fileID: 4081872618750304}
   m_Father: {fileID: 4502872417324560}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -818,6 +817,7 @@ Transform:
   - {fileID: 4143775286941656}
   - {fileID: 4808725808120738}
   - {fileID: 4056454798125206}
+  - {fileID: 4081872618750304}
   m_Father: {fileID: 4502872417324560}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

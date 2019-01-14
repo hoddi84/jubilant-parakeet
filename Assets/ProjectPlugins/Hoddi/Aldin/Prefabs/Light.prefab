@@ -317,10 +317,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ae42b32bb975134d95c50267bef01a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _REFLightOnClip: {fileID: 8300000, guid: f11dd2973a1f46b4b8c3c42fe3a37c74, type: 3}
-  _REFLightOffClip: {fileID: 8300000, guid: 2e90241882f36494ab55ce643a289d92, type: 3}
-  _REFLightStaticClip: {fileID: 8300000, guid: 5e239c9d6fac8874dba148fedbe29472, type: 3}
-  _REFCreepyVoiceClip: {fileID: 8300000, guid: 312f802eb861e5c4aa406cbb24ac5b92, type: 3}
+  _LightOnClip: {fileID: 8300000, guid: f11dd2973a1f46b4b8c3c42fe3a37c74, type: 3}
+  _LightOffClip: {fileID: 8300000, guid: 2e90241882f36494ab55ce643a289d92, type: 3}
+  _LightStaticClip: {fileID: 8300000, guid: 5e239c9d6fac8874dba148fedbe29472, type: 3}
+  _CreepyVoiceClip: {fileID: 8300000, guid: 312f802eb861e5c4aa406cbb24ac5b92, type: 3}
   _REFLight: {fileID: 108407917155252462}
   _REFLightAudioSrc: {fileID: 82105700132221670}
   _REFLightBulbRenderer: {fileID: 23730317441019142}
