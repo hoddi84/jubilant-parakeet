@@ -321,6 +321,3 @@ MonoBehaviour:
   _LightOffClip: {fileID: 8300000, guid: 2e90241882f36494ab55ce643a289d92, type: 3}
   _LightStaticClip: {fileID: 8300000, guid: 5e239c9d6fac8874dba148fedbe29472, type: 3}
   _CreepyVoiceClip: {fileID: 8300000, guid: 312f802eb861e5c4aa406cbb24ac5b92, type: 3}
-  _REFLight: {fileID: 108407917155252462}
-  _REFLightAudioSrc: {fileID: 82105700132221670}
-  _REFLightBulbRenderer: {fileID: 23730317441019142}
