@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 3e8ae24276cd57f4eaf0152b8411acb3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: environment
+    100002: light
+    100004: //RootNode
+    100006: doorLeft
+    100008: doorRight
+    100010: elevator_button_down
+    100012: elevator_button_top
+    100014: floor1
+    100016: floor10
+    100018: floor11
+    100020: floor12
+    100022: floor2
+    100024: floor3
+    100026: floor4
+    100028: floor5
+    100030: floor6
+    100032: floor7
+    100034: floor8
+    100036: floor9
+    100038: Floors
+    400000: environment
+    400002: light
+    400004: //RootNode
+    400006: doorLeft
+    400008: doorRight
+    400010: elevator_button_down
+    400012: elevator_button_top
+    400014: floor1
+    400016: floor10
+    400018: floor11
+    400020: floor12
+    400022: floor2
+    400024: floor3
+    400026: floor4
+    400028: floor5
+    400030: floor6
+    400032: floor7
+    400034: floor8
+    400036: floor9
+    400038: Floors
+    2100000: light
+    2100002: frame
+    2100004: wall
+    2100006: ceiling
+    2100008: floor
+    2100010: elevator_frame
+    2100012: elevator_door
+    2100014: elevator_button
+    2100016: elevator_number_frame
+    2100018: elevator_floor
+    2300000: environment
+    2300002: light
+    2300004: //RootNode
+    2300006: doorLeft
+    2300008: doorRight
+    2300010: elevator_button_down
+    2300012: elevator_button_top
+    2300014: floor1
+    2300016: floor10
+    2300018: floor11
+    2300020: floor12
+    2300022: floor2
+    2300024: floor3
+    2300026: floor4
+    2300028: floor5
+    2300030: floor6
+    2300032: floor7
+    2300034: floor8
+    2300036: floor9
+    3300000: environment
+    3300002: light
+    3300004: //RootNode
+    3300006: doorLeft
+    3300008: doorRight
+    3300010: elevator_button_down
+    3300012: elevator_button_top
+    3300014: floor1
+    3300016: floor10
+    3300018: floor11
+    3300020: floor12
+    3300022: floor2
+    3300024: floor3
+    3300026: floor4
+    3300028: floor5
+    3300030: floor6
+    3300032: floor7
+    3300034: floor8
+    3300036: floor9
+    4300000: light
+    4300002: environment
+    4300004: doorLeft
+    4300006: doorRight
+    4300008: elevator_button_down
+    4300010: elevator_button_top
+    4300012: floor11
+    4300014: floor12
+    4300016: floor10
+    4300018: floor9
+    4300020: floor8
+    4300022: floor7
+    4300024: floor6
+    4300026: floor5
+    4300028: floor4
+    4300030: floor3
+    4300032: floor2
+    4300034: floor1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
