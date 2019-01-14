@@ -991,12 +991,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d7fb791bd583c848b78a7541781a0d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _REFMaterial_Monitor: {fileID: 2100000, guid: a00871159a3f49844a961dc8aa1d3074,
-    type: 2}
-  _REFRenderTexture:
-  - {fileID: 8400000, guid: 6d8535d4ce867cc4fa63dd12089abe6d, type: 2}
-  - {fileID: 8400000, guid: 4f364989428c21b47b0981d2d95e5b5d, type: 2}
-  _REFBtnUpAudioSrc: {fileID: 82482120330863746}
-  _REFBtnDownAudioSrc: {fileID: 82692958799948404}
+  _Material_Monitor: {fileID: 2100000, guid: a00871159a3f49844a961dc8aa1d3074, type: 2}
+  _RenderTexture: []
+  _BtnUpAudioSrc: {fileID: 82482120330863746}
+  _BtnDownAudioSrc: {fileID: 82692958799948404}
   _REFBtnUpInteractableObj: {fileID: 114251631417538196}
   _REFBtnDownInteractableObj: {fileID: 114092254299489462}

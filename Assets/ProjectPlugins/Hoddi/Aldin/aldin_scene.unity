@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 1
+  m_GIWorkflowMode: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -89,8 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 112000086, guid: 9962d74082a13ce43beca207e678f15a,
-    type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -836,7 +835,7 @@ Transform:
   - {fileID: 1950465039}
   - {fileID: 1670922572}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &193358743
 GameObject:
@@ -2029,7 +2028,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114157947357463242, guid: 8736be729ffdc334fa28c00ab4a51a05,
         type: 2}
-      propertyPath: CameraRigEye
+      propertyPath: _REFCameraRigEye
       value: 
       objectReference: {fileID: 20049111}
     m_RemovedComponents: []
@@ -3525,14 +3524,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 838143137}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 924369815}
   - {fileID: 1748605862}
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_Father: {fileID: 897630561}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &839833917
 GameObject:
@@ -3793,8 +3792,9 @@ Transform:
   - {fileID: 1197223288}
   - {fileID: 645322281}
   - {fileID: 1280536679}
+  - {fileID: 838143138}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &918475415
 GameObject:

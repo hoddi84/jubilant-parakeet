@@ -2294,8 +2294,8 @@ MonoBehaviour:
   _REFElevatorStartAudioSrc: {fileID: 82334982258539532}
   _REFElevatorEndScreamAudioSrc: {fileID: 82818854390352910}
   _REFElevatorEndingScreamAudioSrc: {fileID: 82421295714625030}
-  CameraRigEye: {fileID: 0}
-  ElevatorFloorMarkers:
+  _REFCameraRigEye: {fileID: 0}
+  _REFElevatorFloorMarkers:
   - {fileID: 1782805540668074}
   - {fileID: 1657853639136888}
   - {fileID: 1339894595464682}
@@ -2308,17 +2308,16 @@ MonoBehaviour:
   - {fileID: 1247023416791500}
   - {fileID: 1028729502941376}
   - {fileID: 1469373157316574}
-  ElevatorRightDoor: {fileID: 1984536973040168}
-  ElevatorLeftDoor: {fileID: 1964565623735614}
-  ElevatorRightDoorOpen: {fileID: 4939514680265550}
-  ElevatorLeftDoorOpen: {fileID: 4146509725123292}
-  ElevatorOpeningSpeed: 1
-  EndingScreamMoveSpeed: 1
-  ElevatorSummonedEvent: {fileID: 11400000, guid: 07c0e7f6821763a498d55ac20f713567,
+  _REFElevatorRightDoor: {fileID: 1984536973040168}
+  _REFElevatorLeftDoor: {fileID: 1964565623735614}
+  _REFElevatorRightDoorOpen: {fileID: 4939514680265550}
+  _REFElevatorLeftDoorOpen: {fileID: 4146509725123292}
+  _ElevatorSummonedEvent: {fileID: 11400000, guid: 07c0e7f6821763a498d55ac20f713567,
     type: 2}
-  ElevatorFloorDelay: {fileID: 11400000, guid: 285d3a60ba038514b87da66506262c48, type: 2}
-  IsElevatorOpen: 0
-  IsElevatorStopped: 0
+  _ElevatorFloorDelay: {fileID: 11400000, guid: 285d3a60ba038514b87da66506262c48,
+    type: 2}
+  _ElevatorOpeningSpeed: 1
+  _EndingScreamMoveSpeed: 1
 --- !u!114 &114221711472488460
 MonoBehaviour:
   m_ObjectHideFlags: 1
