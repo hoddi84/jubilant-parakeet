@@ -36,6 +36,7 @@ public class ElevatorController : MonoBehaviour
 
     private bool _isElevatorOpen = false;                    // State of the elevator doors, true if they are open.
     private bool _isElevatorStopped = false;                 // State of the elevator after it has been summoned, true if stopped.
+    private bool _isElevatorSummoned = false;                // State of the elevator, if it has been summoned then true.
 
     private Transform _elevatorRightDoorClosed;             // Reference to the closed position of the right elevator door.
     private Transform _elevatorLeftDoorClosed;              // Reference to the open position of the left elevator door.
@@ -52,6 +53,11 @@ public class ElevatorController : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            SummonElevator();
+        }
+
         if (_isElevatorOpen)
         {
             /* 
@@ -70,13 +76,30 @@ public class ElevatorController : MonoBehaviour
         }
     }
 
-    [Button]
+    public void SummonElevator()
+    {
+        /*
+         * Start the coroutine for the elevator behavior.
+         */
+        if (!_isElevatorSummoned)
+        {
+            StartCoroutine(BeginElevatorBehavior());
+            _isElevatorSummoned = true;
+        }
+
+    }
+
     public void SummonElevator(object sender, InteractableObjectEventArgs interactableObjectEventArgs)
     {
         /*
          * Start the coroutine for the elevator behavior.
          */
-        StartCoroutine(BeginElevatorBehavior());
+        if (!_isElevatorSummoned)
+        {
+            StartCoroutine(BeginElevatorBehavior());
+            _isElevatorSummoned = true;
+        }
+        
     }
 
     private void ReloadScene()

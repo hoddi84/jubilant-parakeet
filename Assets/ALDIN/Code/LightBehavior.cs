@@ -37,7 +37,6 @@ public class LightBehavior : MonoBehaviour
         _lightBehaviorCoroutine = StartCoroutine(Behavior());
     }
 
-    [Button]
     public void TurnOffLight(bool permanent = false)
     {
         /*
@@ -61,7 +60,6 @@ public class LightBehavior : MonoBehaviour
         }
     }
 
-    [Button]
     public void TurnOnLight()
     {
         /*
@@ -161,31 +159,6 @@ public class LightBehaviorEditor : Editor
                 GUIHelper.PropertyFieldWithLabel(_pCreepyVoiceClip, _pCreepyVoiceClip.displayName);
             });
         }, "Assets", smallLabelStyle, boxGroupWithLabelStyle);
-
-        GUI.color = Color.grey;
-
-        GUIHelper.GroupedBoxFielWithLabel(() =>
-        {
-            GUI.color = defaultGUIColor;
-
-            GUIHelper.GroupedBoxHorizontal(() =>
-            {
-                MethodInfo[] methods = target.GetType().GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
-
-                for (int i = 0; i < methods.Length; i++)
-                {
-                    object[] customAttributes = methods[i].GetCustomAttributes(typeof(ButtonAttribute), true);
-
-                    if (customAttributes.Length > 0)
-                    {
-                        if (GUILayout.Button(methods[i].Name))
-                        {
-                            ((LightBehavior)target).Invoke(methods[i].Name, 0f);
-                        }
-                    }
-                }
-            });
-        }, "Controls", smallLabelStyle, boxGroupWithLabelStyle);
 
         serializedObject.ApplyModifiedProperties();
     }
